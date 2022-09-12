@@ -1,25 +1,52 @@
-import logo from './logo.svg';
-import './App.css';
+import ExampleBrokenUpdates from './ExampleBrokenUpdates';
+import ExampleControlledComponents from './ExampleControlledComponents';
+import ExampleOnClick from './ExampleOnClick';
+import ExampleProps from './ExampleProps';
+import ExampleState from './ExampleState';
+import ExampleStyleProp from './ExampleStyleProp';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ExampleProps />
+
+      <br />
+      <br />
+      <br />
+
+      <ExampleState />
+
+      <br />
+      <br />
+      <br />
+
+      <ExampleControlledComponents />
+
+      <br />
+      <br />
+      <br />
+
+      <ExampleOnClick />
+
+      <br />
+      <br />
+      <br />
+
+      <ExampleStyleProp />
+
+      <br />
+      <br />
+      <br />
+
+      <ExampleBrokenUpdates />
+
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
   );
 }
-
-export default App;
