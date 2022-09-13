@@ -1,0 +1,10 @@
+.dot {
+  background-color: red;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+}
+
+.dot:hover {
+  background-color: blue;
+}
