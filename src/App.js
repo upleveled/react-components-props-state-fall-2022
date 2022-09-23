@@ -1,3 +1,5 @@
+import ChildrenProp from './ChildrenProp';
+import DerivingState from './DerivingState';
 import ExampleBrokenUpdates from './ExampleBrokenUpdates';
 import ExampleChildrenProps from './ExampleChildrenProps';
 import ExampleControlledComponents from './ExampleControlledComponents';
@@ -13,6 +15,8 @@ import ExampleState from './ExampleState';
 import ExampleStateWithArrayOfObjects from './ExampleStateWithArrayOfObjects';
 import ExampleStyleProp from './ExampleStyleProp';
 import ExampleUseStateIsAsync from './ExampleUseStateIsAsync';
+import PropsDrilling from './PropsDrilling';
+import StateManagement from './StateManagement';
 
 export default function App() {
   return (
@@ -102,16 +106,21 @@ export default function App() {
       <br />
       <br />
       <br />
+
+      <DerivingState />
       <br />
       <br />
       <br />
+
+      <PropsDrilling />
       <br />
       <br />
       <br />
+      <ChildrenProp />
       <br />
       <br />
       <br />
-      <br />
+      <StateManagement />
       <br />
       <br />
       <br />
